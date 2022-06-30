@@ -6,8 +6,10 @@ import Book from './Book';
 import BookConf from './BookConf';
 import Cart from './Cart';
 import Rentals from './Rentals';
+import RentalItem from './RentalItem';
 import Repairs from './Repairs';
 import Shop from './Shop';
+import ShopItem from './ShopItem';
 import Terms from './Terms';
 import Support from './Support'
 import Bottombar from './Bottombar';
@@ -39,11 +41,17 @@ function App() {
             <Route path="/Rentals">
               <Rentals />
             </Route>
+            <Route path="/RentalItem">
+              <RentalItem />
+            </Route>
             <Route path="/Repairs">
               <Repairs />
             </Route>
             <Route path="/Shop">
               <Shop />
+            </Route>
+            <Route path="/ShopItem">
+              <ShopItem />
             </Route>
             <Route path="/Terms">
               <Terms />

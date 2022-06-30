@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles/shop.css"
 
 const Shop = () => {
@@ -30,11 +31,13 @@ const Shop = () => {
       <div className="shop-items-list">
         {shopItemList.map(item => {
           return (
-            <div className="shop-item-box">
-              <img className="shop-item-image" src={item.image} alt="img" />
-              <h3>{item.name}</h3>
-              <p>${item.price}</p>
-            </div>
+            <Link to="/ShopItem">
+              <div className="shop-item-box">
+                <img className="shop-item-image" src={item.image} alt="img" />
+                <h3>{item.name}</h3>
+                <p>${item.price}</p>
+              </div>
+            </Link>
           )
         })}
       </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles/rentals.css"
 
 const Rentals = () => {
@@ -30,11 +31,13 @@ const Rentals = () => {
       <div className="rentals-items-list">
         {rentalItemList.map(item => {
           return (
+            <Link to="/RentalItem">
             <div className="rentals-item-box">
               <img className="rentals-item-image" src={item.image} alt="img" />
               <h3>{item.name}</h3>
               <p>${item.price}</p>
             </div>
+            </Link>
           )
         })}
       </div>

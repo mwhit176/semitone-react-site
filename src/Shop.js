@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import "./styles/shop.css"
-import Calendar from "react-calendar";
 
 const Shop = () => {
   const shopItemList = [{ id: 123, name: "guitar", price: "449.99", image: "https://via.placeholder.com/100x100" },
@@ -19,7 +17,7 @@ const Shop = () => {
   return (
     <div className="shop">
       <div className="shop-subcategories">
-        <h2>Subcategories:</h2>
+        <h2>Buy Subcategories:</h2>
         <p>Lorem, ipsum.</p>
         <p>Lorem, ipsum.</p>
         <p>Lorem, ipsum.</p>

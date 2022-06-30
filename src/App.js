@@ -8,6 +8,7 @@ import Rentals from './Rentals';
 import Repairs from './Repairs';
 import Shop from './Shop';
 import Terms from './Terms';
+import Support from './Support'
 import Bottombar from './Bottombar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -45,6 +46,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Support />
         <Bottombar />
       </div>
     </Router>

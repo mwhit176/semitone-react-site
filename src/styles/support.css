@@ -1,0 +1,18 @@
+
+.support-button {
+    padding: 10px 0;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 200px;
+    margin-bottom: -400px;
+    background-color: cornflowerblue;
+}
+
+.support-button p {
+    font-weight: bold;
+    font-size: 24px;
+}

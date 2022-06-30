@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/semitone-react-site/static/css/main.b183010b.css",
-    "main.js": "/semitone-react-site/static/js/main.1f883b49.js",
+    "main.js": "/semitone-react-site/static/js/main.5b480837.js",
     "static/media/cart.png": "/semitone-react-site/static/media/cart.7961bf5655006c6019cc.png",
     "static/media/strat.jpg": "/semitone-react-site/static/media/strat.27e3edaad1f34ce0be41.jpg",
     "static/media/home.png": "/semitone-react-site/static/media/home.a5717fb83631fa64742e.png",
     "index.html": "/semitone-react-site/index.html",
     "main.b183010b.css.map": "/semitone-react-site/static/css/main.b183010b.css.map",
-    "main.1f883b49.js.map": "/semitone-react-site/static/js/main.1f883b49.js.map"
+    "main.5b480837.js.map": "/semitone-react-site/static/js/main.5b480837.js.map"
   },
   "entrypoints": [
     "static/css/main.b183010b.css",
-    "static/js/main.1f883b49.js"
+    "static/js/main.5b480837.js"
   ]
 }

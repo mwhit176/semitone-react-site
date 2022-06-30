@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route path="/semitone-react-site">
               <Home />
             </Route>
             <Route path="/About">

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="links">
-        <Link to="/">
+        <Link to="/semitone-react-site">
           <img className="home-icon" src={ require('./imgs/home.png') } alt="home-icon" />
           HOME
         </Link>

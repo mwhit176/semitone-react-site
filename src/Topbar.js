@@ -4,7 +4,7 @@ import "./styles/topbar.css"
 const Topbar = () => {
   return (
       <div className="area">
-        <Link to="/">
+        <Link to="/semitone-react-site">
           <img className="logo" src={ require('./imgs/strat.jpg') } alt="logo" />
         </Link>
         <div className="topbar-title">

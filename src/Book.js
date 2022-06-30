@@ -1,10 +1,10 @@
 
-const Home = () => {
+const Book = () => {
   return (
-    <div className="home">
+    <div className="book">
       <h1>This is the text of the Book page!</h1>
     </div>
   );
 }
  
-export default Home;
+export default Book;

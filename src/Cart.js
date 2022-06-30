@@ -1,10 +1,10 @@
 
-const Home = () => {
+const Cart = () => {
   return (
-    <div className="home">
+    <div className="cart">
       <h1>This is the text of the Cart page!</h1>
     </div>
   );
 }
  
-export default Home;
+export default Cart;

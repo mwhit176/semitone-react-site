@@ -3,12 +3,10 @@
     padding: 10px 0;
     text-align: center;
     width: 200px;
-    display: flex;
+    position: absolute;
     justify-content: center;
-    margin-left: auto;
-    margin-top: auto;
-    margin-right: 200px;
-    margin-bottom: -400px;
+    right: 200px;
+    bottom: 40px;
     background-color: cornflowerblue;
 }
 

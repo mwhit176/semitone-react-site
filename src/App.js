@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Book from './Book';
+import BookConf from './BookConf';
 import Cart from './Cart';
 import Rentals from './Rentals';
 import Repairs from './Repairs';
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/Book">
               <Book />
+            </Route>
+            <Route path="/BookConf">
+              <BookConf />
             </Route>
             <Route path="/Cart">
               <Cart />

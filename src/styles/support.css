@@ -5,6 +5,7 @@
     width: 200px;
     position: absolute;
     justify-content: center;
+    cursor: pointer;
     right: 200px;
     bottom: 40px;
     background-color: cornflowerblue;
